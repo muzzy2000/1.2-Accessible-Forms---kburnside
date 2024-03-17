@@ -29,6 +29,31 @@
 			<p>Today we'll be focusing on coding a form that is accessible and semantic, and we'll also briefly discuss skip links for your website. Forms can be a source of frustration for users, whether they specifically need help with accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code this in class, and please ask questions as they arise. Let's make a form!</p>
 
 <!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
+			<form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
+				<label for="full-name">Name</label>
+				<input type="text" name="full-name" id="my-name">
+
+				<label for="users-email">Email Address</label>
+				<input type="email" name="users-email" id="users-email">
+
+				<label for="users-phone">Phone Number</label>
+				<input type="tel" name="users-phone" id="users-phone">
+			
+			<fieldset>
+				<legend>Preferred Method of Contact</legend>
+				<input type="radio" name="pref-contact" id="pref-phone">
+				<label for="pref-phone">Phone</label>
+				
+				<input type="radio" name="pref-contact" id="pref-email">
+				<label for="pref-email">Email</label>
+
+				<input type="submit" value="Submit">
+
+			</fieldset>
+
+
+
+			</form>
 		</article>
 	</main>
 	<footer>
