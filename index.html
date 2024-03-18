@@ -30,13 +30,13 @@
 
 <!-- 	-------- TO-DO: ADD FORM CODE HERE DURING CLASS, FOLLOW ALONG TO COMPLETE -------- -->
 			<form action="https://wp.zybooks.com/form-viewer.php" method="post" target="_blank">
-				<label for="full-name">Name</label>
-				<input type="text" name="full-name" id="my-name">
+				<label for="full-name">Full Name<span class="required">*</span></label>
+				<input type="text" name="full-name" id="full-name">
 
-				<label for="users-email">Email Address</label>
+				<label for="users-email">Email Address<span class="required">*</span></label>
 				<input type="email" name="users-email" id="users-email">
 
-				<label for="users-phone">Phone Number</label>
+				<label for="users-phone">Phone Number<span class="required">*</span></label>
 				<input type="tel" name="users-phone" id="users-phone">
 			
 			<fieldset>
@@ -47,7 +47,7 @@
 				<input type="radio" name="pref-contact" id="pref-email">
 				<label for="pref-email">Email</label>
 
-				<input type="submit" value="Submit">
+			
 			</fieldset>
 			
 			<label for="my-state">State</label>
@@ -114,7 +114,6 @@
 				<textarea name="messages" id="messages"></textarea>
 				
 				<input type="submit" value="Submit">
-
 			</form>
 		</article>
 	</main>
